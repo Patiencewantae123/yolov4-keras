@@ -13,6 +13,7 @@ from utils.utils_bbox import DecodeBox
 
 
 class YOLO(object):
+    
     _defaults = {
         #--------------------------------------------------------------------------#
         #   使用自己训练好的模型进行预测一定要修改model_path和classes_path！
